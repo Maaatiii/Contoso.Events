@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Events.Data", "Contoso.Events.Data\Contoso.Events.Data.csproj", "{54891392-7B3E-4AC8-840C-FA57C4765694}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{F5570C3B-007D-45A5-B655-280B84541211}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Events.Management", "Contoso.Events.Management\Contoso.Events.Management.csproj", "{087932BD-5F12-4E38-AB8E-BA6837113A6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{734564AB-63D3-405A-9A78-0020A12B5629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contoso.Events.ViewModels.Tests", "Contoso.Events.ViewModels.Tests\Contoso.Events.ViewModels.Tests.csproj", "{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,13 +39,21 @@ Global
 		{087932BD-5F12-4E38-AB8E-BA6837113A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{087932BD-5F12-4E38-AB8E-BA6837113A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{087932BD-5F12-4E38-AB8E-BA6837113A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{54891392-7B3E-4AC8-840C-FA57C4765694} = {F5570C3B-007D-45A5-B655-280B84541211}
 		{8E0D7C38-4ACA-437E-8091-5A4B340A848A} = {F5570C3B-007D-45A5-B655-280B84541211}
 		{1D9C61C2-C6C2-4E3A-B68A-54CE61E980C4} = {F5570C3B-007D-45A5-B655-280B84541211}
-		{54891392-7B3E-4AC8-840C-FA57C4765694} = {F5570C3B-007D-45A5-B655-280B84541211}
+		{A2C10284-BB12-48C6-AE91-7A98E3BE2D0D} = {734564AB-63D3-405A-9A78-0020A12B5629}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46C1ACA9-1E48-4EA6-B631-B30AFE350D41}
 	EndGlobalSection
 EndGlobal
